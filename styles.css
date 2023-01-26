@@ -1,0 +1,111 @@
+.body{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.controlpanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 50px;
+    padding: 30px;
+    font-family: "Permanent Marker";
+}
+
+.buttons{
+    color: red;
+    font-size: 30px;
+    font-family: "Permanent Marker";
+    margin-top: 10px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+#toggle{
+    -webkit-appearance: none;
+    /* margin-top: 80px; */
+    height: 10px;
+    width: 150px;
+    border-radius: 10px;
+    
+}
+    /* background-color: red; */
+
+
+.toggle::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: red;
+    
+    cursor: pointer;
+  }
+
+#gridvalue{
+    font-size: 30px;
+    color: red;
+    font-family: "Permanent Marker";
+    text-align: center;
+
+}
+#color-picker{
+    display: flex;
+    align-self: center;
+}
+  
+#sketcharea{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    font-size:0;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+#sketchframe{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    
+    display: inline-block;
+    
+    background-color: white;
+    /* border: solid 1px black; */
+
+
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+   
+  }
+
+  .active{
+    background-color: red;
+  }
+

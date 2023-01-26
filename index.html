@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etchascketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent Marker">
+    <script src="main.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+</head>
+<body class="body">
+<header class="header">ETCH A SKETCH</header>
+<div class="main">
+    <div class="controlpanel">
+        <input id="color-picker" type="color">
+        
+        
+        <!-- <button class="buttons" id="Eraser">Eraser</button> -->
+        <button class="buttons" id="clear">Clear</button>
+        <div id="gridvalue">16x16</div>
+        <input id="toggle" type="range" min="0" max="6" value="3" class="toggle">
+
+    </div>
+    <div id="sketchframe">
+        <div id="sketcharea"></div>
+    </div>
+</div>
+    
+</body>
+</html>
